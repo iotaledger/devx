@@ -5,14 +5,25 @@ labels: 'wiki-change-request'
 assignees:
   - lucas-tortora
 body:
+-type: dropdown
+  attributes:
+    label: Request Type
+    options:
+      - New Content
+      - Fix existing content
+      - Restructure
+  validations:
+    required: true
 - type: dropdown
   attributes:
     label: Content Type
+    description: Check out https://diataxis.fr/ if the options are not clear.
     options:
       - Explanation
       - Reference
       - Tutorial
       - How-To
+      - Other
 - type: dropdown
   attributes:
     label: Section Target
@@ -21,9 +32,12 @@ body:
       - Learn
       - Build
       - Maintain
+      - Other
 - type: dropdown
   attributes:
     label: Layer
     options:
       - Layer 1 - Tangle/DAG
       - Layer 2 - ISC & etc.
+- type: checkbox
+  label: Request Description
