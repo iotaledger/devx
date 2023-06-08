@@ -39,5 +39,5 @@ body:
     options:
       - Layer 1 - Tangle/DAG
       - Layer 2 - ISC & etc.
-- type: checkbox
+- type: markdown
   label: Request Description
