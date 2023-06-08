@@ -5,7 +5,7 @@ labels: 'wiki-change-request'
 assignees:
   - lucas-tortora
 body:
--type: dropdown
+- type: dropdown
   attributes:
     label: Request Type
     options:
