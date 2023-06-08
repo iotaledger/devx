@@ -1,9 +1,9 @@
----
 name: Wiki Change Request
 about: Request new content or changes for the wiki.
-title: 'Wiki Change Request:'
+title: '[Wiki Change Request]: '
 labels: 'wiki-change-request'
-assignees: 'lucas-tortora'
+assignees:
+  - lucas-tortora
 body:
 - type: dropdown
   attributes:
@@ -27,4 +27,3 @@ body:
     options:
       - Layer 1 - Tangle/DAG
       - Layer 2 - ISC & etc.
----
