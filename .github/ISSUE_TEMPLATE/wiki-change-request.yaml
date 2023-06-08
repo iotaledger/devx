@@ -1,5 +1,5 @@
 name: Wiki Change Request
-about: Request new content or changes for the wiki.
+description: Request new content or changes for the wiki.
 title: '[Wiki Change Request]: '
 labels: 'wiki-change-request'
 assignees:
