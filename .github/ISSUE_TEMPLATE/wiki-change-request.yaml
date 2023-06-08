@@ -40,4 +40,5 @@ body:
       - Layer 1 - Tangle/DAG
       - Layer 2 - ISC & etc.
 - type: textarea
-  label: Request Description
+  attributes:
+    label: Request Description
