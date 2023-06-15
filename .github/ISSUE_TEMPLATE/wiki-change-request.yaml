@@ -1,7 +1,7 @@
-name: Wiki Change Request
-description: Request new content or changes for the wiki.
-title: '[Wiki Change Request]: '
-labels: 'wiki-change-request'
+name: Content Change Request
+description: Request new content or changes from DevX.
+title: '[Change Request]: '
+labels: 'change-request'
 assignees:
   - lucas-tortora
 body:
@@ -10,8 +10,7 @@ body:
     label: Request Type
     options:
       - New Content
-      - Fix existing content
-      - Restructure
+      - Alter Content
   validations:
     required: true
 - type: dropdown
@@ -22,8 +21,7 @@ body:
       - Explanation
       - Reference
       - How-To
-      - Tutorial (Text)
-      - Tutorial (Video)
+      - Tutorial (Text/Video)
       - Other
   validations:
     required: true
@@ -42,6 +40,15 @@ body:
     options:
       - Layer 1 - Tangle/DAG
       - Layer 2 - ISC & etc.
+      - Not Applicable
+- type: checkboxes
+  id: Due Dilligence
+  attributes:
+    label: | 
+      I checked the ![content plan board](https://miro.com/app/board/uXjVMD1bkow=/) pw: RcL[?p?38ChF(5s9Cad9&8270
+    description: Whether you checked the content plan board and figured out where the content should live
+    options:
+      - label: Yes
 - type: textarea
   attributes:
     label: Description
