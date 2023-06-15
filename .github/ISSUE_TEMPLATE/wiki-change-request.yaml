@@ -21,12 +21,15 @@ body:
     options:
       - Explanation
       - Reference
-      - Tutorial
       - How-To
+      - Tutorial (Text)
+      - Tutorial (Video)
       - Other
+  validations:
+    required: true
 - type: dropdown
   attributes:
-    label: Section Target
+    label: Wiki Section Target
     options:
       - Get Started
       - Learn
@@ -41,4 +44,4 @@ body:
       - Layer 2 - ISC & etc.
 - type: textarea
   attributes:
-    label: Request Description
+    label: Description
