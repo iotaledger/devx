@@ -1,9 +1,7 @@
 name: Content Change Request
 description: Request new content or changes from DevX.
-title: '[Content Change Request]: '
+title: '[CCR]: <REPLACE ME>'
 labels: 'content-change-request'
-assignees:
-  - lucas-tortora
 body:
 - type: dropdown
   attributes:
@@ -47,7 +45,16 @@ body:
     label: Content Plan Checked
     description: "Whether you checked [content plan board](https://miro.com/app/board/uXjVMD1bkow=/) pw: RcL[?p?38ChF(5s9Cad9&8270"
     options:
-      - label: Affirmative
+      - label: "Yes"
+      - label: "No"
+- type: checkboxes
+  id: due-dilligence
+  attributes:
+    label: Link Breakage
+    description: "Whether this change will break any links"
+    options:
+      - label: "Yes"
+      - label: "No"
 - type: textarea
   attributes:
     label: Description
