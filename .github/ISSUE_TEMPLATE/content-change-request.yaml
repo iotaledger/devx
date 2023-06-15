@@ -10,7 +10,7 @@ body:
     label: Request Type
     options:
       - New Content
-      - Alter Content
+      - Modify Content
   validations:
     required: true
 - type: dropdown
