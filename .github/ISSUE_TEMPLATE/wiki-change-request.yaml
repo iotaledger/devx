@@ -44,7 +44,8 @@ body:
 - type: checkboxes
   id: Due Dilligence
   attributes:
-    label: I checked the ![content plan board](https://miro.com/app/board/uXjVMD1bkow=/) pw: RcL[?p?38ChF(5s9Cad9&8270
+    label: |
+      I checked the ![content plan board](https://miro.com/app/board/uXjVMD1bkow=/) pw: RcL[?p?38ChF(5s9Cad9&8270
     description: Whether you checked the content plan board and figured out where the content should live
     options:
       - label: Yes
