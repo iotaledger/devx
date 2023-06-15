@@ -42,7 +42,7 @@ body:
       - Layer 2 - ISC & etc.
       - Not Applicable
 - type: checkboxes
-  id: Due Dilligence
+  id: due-dilligence
   attributes:
     label: Content Plan Checked
     description: "Whether you checked ![content plan board](https://miro.com/app/board/uXjVMD1bkow=/) pw: RcL[?p?38ChF(5s9Cad9&8270"
