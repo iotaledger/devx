@@ -48,7 +48,7 @@ body:
       - label: "Yes"
       - label: "No"
 - type: checkboxes
-  id: due-dilligence
+  id: link-breakage
   attributes:
     label: Link Breakage
     description: "Whether this change will break any links"
