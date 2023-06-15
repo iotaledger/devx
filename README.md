@@ -1,10 +1,10 @@
-# Guild DevX
+# DevX
 
 This repository is the main hub for information concerning devx related issues, and process related requests.   
 
 ## Responsibilities
 
-The main responsibilities of the guild are:
+The main responsibilities of DevX are:
 
 - to keep the contained information in the wiki up-to-date. This includes processes, but is not restricted to guidance on documentation, tutorials' best practices, and training material
 - provide guidance on developer experience
