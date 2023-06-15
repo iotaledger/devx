@@ -1,7 +1,7 @@
 name: Content Change Request
 description: Request new content or changes from DevX.
-title: '[Change Request]: '
-labels: 'change-request'
+title: '[Content Change Request]: '
+labels: 'content-change-request'
 assignees:
   - lucas-tortora
 body:
